@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.survey_header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detailssection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Box styling */
+.box {
+    flex: 1 1 30%; /* Each box will take up 30% of the container by default */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+}
+
+/* Input and label styling */
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.divider {
+    margin-top: 10px;
+}
+
+/* Responsive Styling */
+
+/* For tablet and smaller screens */
+@media (max-width: 768px) {
+    .box {
+        flex: 1 1 45%; /* Boxes will take up 45% of the width on tablets */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .box {
+        flex: 1 1 100%; /* Boxes will take up 100% width on small mobile screens */
+    }
+}
