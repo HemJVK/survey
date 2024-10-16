@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
+</head>
+
+<body>
+    <div class="survey_header">
+        <h1 class="surveyheader">
+            Survey
+        </h1>
+    </div>
+
+    <div class="detailssection">
+        <!-- Name  -->
+        <div class="box box1">
+            <div class="name_class">
+                <label for="name" >Name </label>
+                <div class="divider">
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deparment -->
+        <div class="box box2">
+            <div>
+                <label for="deparment">Department </label>
+            </div>
+            <div class="divider">
+                <div class="divider dropdown department">
+                    <select name="department" id="Engineering" required>
+                        <option value="" disabled selected>Choose Dept</option>
+                        <option value="CSE">CSE</option>
+                        <option value="CSE(Etech)">CSE(E.Tech)</option>
+                        <option value="Mech.Eng">Mech.Eng</option>
+                        <option value="ECE">ECE</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Year -->
+        <div class="box  box3">
+            <div class="year_class">
+                <label for="year">Year </label>
+                <div class="divider">
+                    <div>
+                        <input type="radio" id="year1" name="year" value="1">
+                        <label for="year1">1st Year</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="year2" name="year" value="2">
+                        <label for="year2">2nd Year</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="year3" name="year" value="3">
+                        <label for="year3">3rd Year</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="year4" name="year" value="4">
+                        <label for="year4">4th Year</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="staff" name="year" value="5">
+                        <label for="staff">Staff</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="box box4">
+            <div class="reg_no">
+                <label for="regno">Registration Number</label>
+                <div class="divider">
+                    <input type="text" id="regno" placeholder="Enter your Register No">
+                </div>
+            </div>
+        </div>
+
+        <div class="box box4">
+            <div class="email">
+                <label for="regno">College Email Id</label>
+                <div class="divider">
+                    <input type="email" id="regno" placeholder="Enter your college email">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

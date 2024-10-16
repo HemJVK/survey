@@ -1,0 +1,66 @@
+body {
+    margin: 0%;
+    text-align: center;
+    align-items: center;
+}
+.survey_header{
+    text-align: center;
+}
+
+.element:hover {
+    box-shadow: inset black,
+        -10px -10px 10px whitesmoke
+}
+
+.surveyheader {
+    margin: 5px;
+    background: linear-gradient(to right,rgb(100, 100, 247) ,rgb(240, 103, 103) );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block ;
+    /* Ensure text background works */
+    font-size: 8rem;
+    text-align: center;
+    /* line-height: 1; */
+}
+
+
+.detailssection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.year {
+    display: flex;
+}
+
+.box1 {
+    
+    width: 25rem;
+    height: 5rem;
+    border: 2px solid purple;
+    background-color: #3498db;
+    color: rgb(236, 229, 229);
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.box2 {
+    padding-top: 10px;
+    width: 25rem;
+    height: 10rem;
+    border: 2px solid purple;
+    background-color: #3498db;
+    color: rgb(236, 229, 229);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}

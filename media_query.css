@@ -1,0 +1,45 @@
+/* Default styles for larger screens */
+body {
+    font-size: 18px;
+    background-color: lightblue;
+}
+
+/* Styles for devices with a maximum width of 768px (tablet and smaller screens) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        background-color: lightgreen;
+    }
+}
+
+/* Styles for devices with a maximum width of 480px (mobile phones) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+
+
+/* Styles for landscape orientation */
+@media (orientation: landscape) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+/* Styles for portrait orientation */
+@media (orientation: portrait) {
+    body {
+        background-color: lightyellow;
+    }
+}
+
+
+/* Styles for screens with a resolution of at least 1920px */
+@media (min-width: 1920px) {
+    body {
+        font-size: 20px;
+        background-color: lavender;
+    }
+}

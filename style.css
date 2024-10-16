@@ -1,0 +1,72 @@
+/* General styling */
+body {
+    font-family: 'Times New Roman';
+    margin: 20px;
+}
+
+.survey_header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.surveyheader {
+    background: linear-gradient(to right, rgb(100, 100, 247), rgb(240, 103, 103));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 2rem;
+    /* color: #333; */
+}
+
+/* Layout for the input sections */
+.detailssection {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.name_class,
+.year_class {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    /* display: inline-block; */
+    width: 100px;
+    /* margin-right: 10px; */
+}
+
+/* Input styling */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Styling for radio button labels */
+.year_class div {
+    margin: 5px 0;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.divider {
+    padding-top: 10px;
+}
